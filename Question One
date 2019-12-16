@@ -14,15 +14,13 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 using namespace std;
 
-int myFunctionArray(int myArray[]);
+void myFunction(int myArray[], int check1);
 
-int main()
+ main()
 {
 
 int i;
-int w;
 int random;
-int myFunction;
 int myArray1[20];
 int answer;
 int check;
@@ -35,13 +33,34 @@ int check;
       }
 
 cout<<"Enter a number";
-cin>>myArray1[i];
+cin>>check;
+
+myFunction(myArray1, check);
+
+
+
 
 
 }
 
-int myFunctionArray(int myArray[]){
+void myFunction(int myArray[], int check1){
     
+    if(check1==myArray[]) {
+    cout<<"your number is in the list";
+
+}
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
