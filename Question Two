@@ -1,0 +1,46 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include<string>
+#include<time.h>
+#include<stdlib.h>
+
+
+using namespace std;
+
+void function(string array[], string user1);
+
+int main() {
+    
+string array1[9];
+string user;
+int i;
+
+for(i=0;i<9;i++){
+ array1[i]=user;
+
+    
+}
+    functions()
+    
+}
+    
+    void function(string array[], string user1){
+        int len;
+        len=user1.length();
+        cout<<len;
+
+        
+        
+    }
+    
+    
+    
+
+    
