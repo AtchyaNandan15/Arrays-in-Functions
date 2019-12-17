@@ -38,21 +38,18 @@ cin>>check;
 myFunction(myArray1, check);
 
 
-
-
-
 }
 
 void myFunction(int myArray[], int check1){
     
-    if(check1==myArray[]) {
+    if(check1) {
     cout<<"your number is in the list";
 
 }
 
 else{
     
-    cout<<" your name is not on the list"
+    cout<<" your name is not on the list";
 }
 
 
