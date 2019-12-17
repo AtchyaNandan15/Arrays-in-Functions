@@ -10,29 +10,34 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 using namespace std;
 
-void fillArray(string word[], int total1);
+void fillArray(string word[], int& total1);
 
 int main()
 {
   
   string myWords[5];
   int i;
-  int total;
+  int total=0;
   string length1;
-  
+
 
   
   fillArray(myWords, total);
   
   for(i=0;i<5;i++){
       myWords[i];
+      
+      cout<<wordReverse(myWords[i]);
+      
   }
-  
-      cout<<total;
+      cout<<" The aveage length is";
+      cout<<total/10;
 
 }
 
-void fillArray(string word[], int total1){
+
+
+void fillArray(string word[], int& total1){
     
     int p;
     int w;
@@ -47,9 +52,6 @@ void fillArray(string word[], int total1){
     }
     
 
-
-    
-   
 }
 
 
