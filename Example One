@@ -1,0 +1,44 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+void fillArray(int num[]);
+
+int main()
+{
+  
+  int myNums[5];
+  int i;
+  
+  fillArray(myNums);
+  
+  for(i=0;i>5;i++){
+      cout<<myNums[i]<<"\n";
+  }
+  
+  
+}
+
+void fillArray(int num[]){
+    
+    int p;
+    
+    for(p=0;p<5;p++){
+        
+        cout<<" Enter a number ";
+        cin>>num[p];
+    }
+}
+
+
+
+
+
