@@ -7,40 +7,52 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
-#include<string>
-#include<time.h>
-#include<stdlib.h>
-
 
 using namespace std;
 
-void function(string array[], string user1);
+void fillArray(string word[], int total1);
 
-int main() {
-    
-string array1[9];
-string user;
-int i;
+int main()
+{
+  
+  string myWords[5];
+  int i;
+  int total;
+  string length1;
+  
 
-for(i=0;i<9;i++){
- array1[i]=user;
+  
+  fillArray(myWords, total);
+  
+  for(i=0;i<5;i++){
+      myWords[i];
+  }
+  
+      cout<<total;
 
-    
 }
-    functions()
-    
-}
-    
-    void function(string array[], string user1){
-        int len;
-        len=user1.length();
-        cout<<len;
 
+void fillArray(string word[], int total1){
+    
+    int p;
+    int w;
+
+    
+    for(p=0;p<5;p++){
         
-        
+        cout<<" Enter a word";
+        cin>>word[p];
+        total1 = total1+word[p].length();
+       
     }
     
-    
-    
+
 
     
+   
+}
+
+
+
+
+
