@@ -50,6 +50,11 @@ void myFunction(int myArray[], int check1){
 
 }
 
+else{
+    
+    cout<<" your name is not on the list"
+}
+
 
 }
 
