@@ -20,11 +20,10 @@ int main()
   
   fillArray(myNums);
   
-  for(i=0;i>5;i++){
+  for(i=0;i<5;i++){
       cout<<myNums[i]<<"\n";
   }
-  
-  
+
 }
 
 void fillArray(int num[]){
