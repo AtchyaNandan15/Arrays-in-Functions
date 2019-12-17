@@ -27,14 +27,16 @@ int main()
   for(i=0;i<5;i++){
       myWords[i];
       
-      cout<<wordReverse(myWords[i]);
+   
       
   }
       cout<<" The aveage length is";
       cout<<total/10;
+      
+cout<<myWords[4];
+
 
 }
-
 
 
 void fillArray(string word[], int& total1){
@@ -54,7 +56,10 @@ void fillArray(string word[], int& total1){
 
 }
 
-
+void reverse(int myArray[]){
+    reverse(myArray);
+    
+}
 
 
 
