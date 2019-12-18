@@ -49,7 +49,11 @@ void myFunction(int myArray[], int check1){
 
     if(myArray[w]==check1) {
     cout<<"your number is in the list";
-    
+    myArray[w];
+    }
+
+    else {
+      myArray[1];
     }
 
   }
