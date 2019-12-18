@@ -41,20 +41,28 @@ myFunction(myArray1, check);
 }
 
 void myFunction(int myArray[], int check1){
+   
+    int w;
+    for(w=0;w<19;w++) {
+    myArray[w];    
     
-    if(check1) {
+
+    if(myArray[w]==check1) {
     cout<<"your number is in the list";
-
-}
-
-else{
     
-    cout<<" your name is not on the list";
-}
+    }
+
+  }
+
+    if (myArray[w]!=check1){
+    cout<<" your number is not on the list";
+    
 
 
 }
 
+    
+}
 
 
 
