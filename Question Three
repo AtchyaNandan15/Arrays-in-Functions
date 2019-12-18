@@ -7,7 +7,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
-
+#include<string>
 using namespace std;
 
 void fillArray(string name1[], int place);
@@ -20,23 +20,22 @@ int main()
   
     fillArray(myName,places);
 
-  for(i=0;i<4;i++){
-      myName[i];
+    for(i=0;i<4;i++){
+       myName[i];
+       cout<<myName[i]<<"\n";
+    }
   
-       
-        cout<<myName[i]<<"\n";
-}
-  
-}
+  }
 
 void fillArray(string name1[], int place){
     
     int w;
     
-        for(w=0;w<4;w++){
-      cout<<"Enter a name";
-      cin>>name1[w];
+      for(w=0;w<4;w++){
+        cout<<"Enter a name ";
+        cin>>name1[w];
   }
+        
         cout<<name1[w]<<"\t\n";
 
     
