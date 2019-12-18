@@ -7,50 +7,47 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
-
+#include<string>
 using namespace std;
 
-void fillArray(string word[], int& total1);
+void fillArray(string word[], float& total1);
 
 int main()
 {
   
   string myWords[10];
   int i;
-  int total=0;
+  float total=0;
   string length1;
 
 
   
   fillArray(myWords, total);
   
-  for(i=0;i<10;i++){
-      myWords[i];
+     for(i=0;i<10;i++){
+        myWords[i];
       
-   
-      
-  }
-      cout<<" The aveage length is";
+      }
+    
+      cout<<" The average length of the word is";
       cout<<"\n"<<total/10<<"\n";
+      cout<<"\n";
       
-cout<<myWords[9]<<" ";
-cout<<myWords[8]<<" ";
-cout<<myWords[7]<<" ";
-cout<<myWords[6]<<" ";
-cout<<myWords[5]<<" ";
-cout<<myWords[4]<<" ";
-cout<<myWords[3]<<" ";
-cout<<myWords[2]<<" ";
-cout<<myWords[1]<<" ";
-cout<<myWords[0]<<" ";
-
-
-
+      cout<<myWords[9]<<" ";
+      cout<<myWords[8]<<" ";
+      cout<<myWords[7]<<" ";
+      cout<<myWords[6]<<" ";
+      cout<<myWords[5]<<" ";
+      cout<<myWords[4]<<" ";
+      cout<<myWords[3]<<" ";
+      cout<<myWords[2]<<" ";
+      cout<<myWords[1]<<" ";
+      cout<<myWords[0]<<" ";
 
 }
 
 
-void fillArray(string word[], int& total1){
+void fillArray(string word[], float& total1){
     
     int p;
     int w;
@@ -58,19 +55,13 @@ void fillArray(string word[], int& total1){
     
     for(p=0;p<10;p++){
         
-        cout<<" Enter a word";
+        cout<<" Enter a word ";
         cin>>word[p];
         total1 = total1+word[p].length();
-       
     }
     
-
 }
 
-void reverse(int myArray[]){
-    reverse(myArray);
-    
-}
 
 
 
