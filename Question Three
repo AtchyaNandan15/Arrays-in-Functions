@@ -10,42 +10,43 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 using namespace std;
 
-void fillArray(string name1[]);
+void fillArray(string name1[], int place);
 
 int main()
 {
   string myName[14];
   int i;
+  int places;
   
-    fillArray(myName);
+    fillArray(myName,places);
 
-  for(i=0;i<14;i++){
+  for(i=0;i<4;i++){
       myName[i];
   }
        
-        cout<<myName[i]<<"\n";
-        cout<<myName;
+        cout<<myName[places-1]<<"\n";
 
   
 }
 
-void fillArray(string name1[]){
+void fillArray(string name1[], int place){
     
-    int place;
     int w;
     
-        for(w=0;w<14;w++){
+        for(w=0;w<4;w++){
       cout<<"Enter a name";
       cin>>name1[w];
   }
+        cout<<name1[w]<<"\t\n";
 
     
-    cout<<"Enter the name you want to replace number";
+    cout<<"Enter the number of the name";
     cin>>place;
     
       
-    //cout<<"Enter the name you want to replace number";
-    //cin>>name1[place - 1];
+    cout<<"Enter the name you want to replace number";
+    cin>>name1[place - 1];
+    
     
     
     
