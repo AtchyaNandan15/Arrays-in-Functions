@@ -22,10 +22,10 @@ int main()
 
   for(i=0;i<4;i++){
       myName[i];
-  }
+  
        
-        cout<<myName[places-1]<<"\n";
-
+        cout<<myName[i]<<"\n";
+}
   
 }
 
