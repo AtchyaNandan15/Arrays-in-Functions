@@ -46,7 +46,7 @@ void fillArray(string name1[], int place){
       
     cout<<"Enter the name you want to replace number";
     cin>>name1[place - 1];
-    
+    cout<<"\n";
     
     
     
