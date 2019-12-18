@@ -15,7 +15,7 @@ void fillArray(string word[], int& total1);
 int main()
 {
   
-  string myWords[5];
+  string myWords[10];
   int i;
   int total=0;
   string length1;
@@ -24,16 +24,27 @@ int main()
   
   fillArray(myWords, total);
   
-  for(i=0;i<5;i++){
+  for(i=0;i<10;i++){
       myWords[i];
       
    
       
   }
       cout<<" The aveage length is";
-      cout<<total/10;
+      cout<<"\n"<<total/10<<"\n";
       
-cout<<myWords[4];
+cout<<myWords[9]<<" ";
+cout<<myWords[8]<<" ";
+cout<<myWords[7]<<" ";
+cout<<myWords[6]<<" ";
+cout<<myWords[5]<<" ";
+cout<<myWords[4]<<" ";
+cout<<myWords[3]<<" ";
+cout<<myWords[2]<<" ";
+cout<<myWords[1]<<" ";
+cout<<myWords[0]<<" ";
+
+
 
 
 }
@@ -45,7 +56,7 @@ void fillArray(string word[], int& total1){
     int w;
 
     
-    for(p=0;p<5;p++){
+    for(p=0;p<10;p++){
         
         cout<<" Enter a word";
         cin>>word[p];
