@@ -50,16 +50,21 @@ void myFunction(int myArray[], int check1){
     if(myArray[w]==check1) {
     cout<<"your number is in the list";
     myArray[w];
+    myArray[check1];
+    
     }
 
     else {
-      myArray[1];
+        
+      cout<<" ";
     }
 
   }
 
     if (myArray[w]!=check1){
     cout<<" your number is not on the list";
+    
+    
     
 
 
