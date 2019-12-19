@@ -1,0 +1,72 @@
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date: December 19th 2019                                                                      
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use arrays in functions                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  string name1[].....................................the name in the array
+                    int place1...........................................the place in the array
+                    string myName[14].....................................ask the user for the place                   
+                    int i.................................................for the for loop
+                    int places...........................................the place in the array
+                    int w...............................................for the for loop
+
+********************************************************************************************************************/
+
+#include <iostream>
+#include<string>
+using namespace std;
+
+void fillArray(string name1[], int place);
+
+int main()
+{
+  string myName[14];
+  int i;
+  int places;
+  
+    fillArray(myName,places);
+
+    for(i=0;i<14;i++){
+       myName[i];
+       cout<<myName[i]<<"\n";
+    }
+  
+  }
+
+void fillArray(string name1[], int place){
+    
+    int w;
+    
+      for(w=0;w<14;w++){
+        cout<<"Enter a name ";
+        cin>>name1[w];
+  }
+        
+        cout<<name1[w]<<"\t\n";
+
+    
+    cout<<"Enter the number of the name";
+    cin>>place;
+    
+      
+    cout<<"Enter the name you want to replace number";
+    cin>>name1[place - 1];
+    cout<<"\n";
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
